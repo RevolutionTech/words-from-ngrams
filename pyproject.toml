@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "words-from-ngrams"
+version = "0.1.0"
+description = "Generate words from given ngrams."
+authors = ["Lucas Connors <lucas@revolutiontech.ca>"]
+license = "ISC"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyenchant = "^3.2.0"
+tqdm = "^4.56.0"
+
+[tool.poetry.dev-dependencies]
+opstrich = "^0.2.0"
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 88
+target_version = ["py38"]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
