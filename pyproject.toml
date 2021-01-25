@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "words-from-ngrams"
 version = "0.1.0"
-description = "Generate words from given ngrams."
+description = "Generate words/acronyms from given ngrams."
 authors = ["Lucas Connors <lucas@revolutiontech.ca>"]
 license = "ISC"
 
